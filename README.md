@@ -1,5 +1,5 @@
-[![sherpa logo](http://nano-assets.gopagoda.io/readme-headers/sherpa.png)](http://nanobox.io/open-source#sherpa)
-[![Build Status](https://travis-ci.org/nanopack/sherpa.svg)](https://travis-ci.org/nanopack/sherpa)
+[![sherpa logo](http://microbox.rocks/assets/readme-headers/sherpa.png)](http://microbox.cloud/open-source#sherpa)
+[![Build Status](https://github.com/mu-box/sherpa/actions/workflows/ci.yaml/badge.svg)](https://github.com/mu-box/sherpa/actions)
 
 # sherpa
 
@@ -57,4 +57,4 @@ in the future, but the most likely scenario is not.
 
 ### Notes
 
-[![sherpa logo](http://nano-assets.gopagoda.io/open-src/nanobox-open-src.png)](http://nanobox.io/open-source)
+[![sherpa logo](http://microbox.rocks/assets/open-src/microbox-open-src.png)](http://microbox.cloud/open-source)

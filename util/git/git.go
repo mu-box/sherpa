@@ -1,4 +1,3 @@
-//
 package git
 
 import (
@@ -8,7 +7,6 @@ import (
 	"os/exec"
 )
 
-//
 func Clone(path string) {
 	if !exists() {
 		fmt.Printf(`Git is not available on this machine. Use "Download" to fetch template releases\n`)
@@ -18,8 +16,7 @@ func Clone(path string) {
 	os.Exec("git", "clone", path).Run()
 }
 
-//
-// "https://api.github.com/repos/nanobox-io/pagodabox-cli/contents/version"
+// "https://api.github.com/repos/mu-box/microbox/contents/version"
 func Download(path string) error {
 
 	//

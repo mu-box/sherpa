@@ -1,4 +1,3 @@
-//
 package api
 
 import (
@@ -9,10 +8,11 @@ import (
 	"net/http/httputil"
 
 	"database/sql"
+
 	_ "github.com/lib/pq"
 
-	"github.com/nanopack/sherpa/config"
-	"github.com/nanopack/sherpa/models"
+	"github.com/mu-box/sherpa/config"
+	"github.com/mu-box/sherpa/models"
 )
 
 // getTemplates

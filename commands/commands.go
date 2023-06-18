@@ -6,14 +6,13 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/nanopack/sherpa/api"
-	"github.com/nanopack/sherpa/commands/build"
-	"github.com/nanopack/sherpa/commands/template"
-	"github.com/nanopack/sherpa/config"
-	"github.com/nanopack/sherpa/models"
+	"github.com/mu-box/sherpa/api"
+	"github.com/mu-box/sherpa/commands/build"
+	"github.com/mu-box/sherpa/commands/template"
+	"github.com/mu-box/sherpa/config"
+	"github.com/mu-box/sherpa/models"
 )
 
-//
 var (
 
 	//

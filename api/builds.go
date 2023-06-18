@@ -1,4 +1,3 @@
-//
 package api
 
 import (
@@ -13,13 +12,13 @@ import (
 	"time"
 
 	"database/sql"
+
 	_ "github.com/lib/pq"
 
-	"github.com/nanopack/sherpa/config"
-	"github.com/nanopack/sherpa/models"
+	"github.com/mu-box/sherpa/config"
+	"github.com/mu-box/sherpa/models"
 )
 
-//
 func getBuilds(rw http.ResponseWriter, req *http.Request) {
 	db, err := sql.Open("postgres", config.Options.DBConn)
 	if err != nil {
@@ -46,7 +45,6 @@ func getBuilds(rw http.ResponseWriter, req *http.Request) {
 	fmt.Printf("BUILDS? %#v\n", builds)
 }
 
-//
 func postBuild(rw http.ResponseWriter, req *http.Request) {
 
 	dump, err := httputil.DumpRequestOut(req, true)
@@ -163,7 +161,6 @@ Request:
 	}
 }
 
-//
 func getBuild(rw http.ResponseWriter, req *http.Request) {
 
 	db, err := sql.Open("postgres", config.Options.DBConn)
@@ -180,7 +177,6 @@ func getBuild(rw http.ResponseWriter, req *http.Request) {
 	fmt.Printf("BUILD! %#v", b)
 }
 
-//
 func deleteBuild(rw http.ResponseWriter, req *http.Request) {
 
 	// connect to the DB

@@ -1,7 +1,6 @@
-//
 package main
 
-import "github.com/nanopack/sherpa/commands"
+import "github.com/mu-box/sherpa/commands"
 
 // start up the CLI
 func main() {

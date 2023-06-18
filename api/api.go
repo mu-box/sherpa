@@ -1,4 +1,3 @@
-//
 package api
 
 import (
@@ -6,7 +5,7 @@ import (
 
 	"github.com/gorilla/pat"
 
-	"github.com/nanopack/sherpa/config"
+	"github.com/mu-box/sherpa/config"
 )
 
 // Start creates a new http server listner

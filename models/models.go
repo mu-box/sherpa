@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/nanopack/sherpa/config"
+	"github.com/mu-box/sherpa/config"
 )
 
 // Init creates the directory where builds and templates are going to live

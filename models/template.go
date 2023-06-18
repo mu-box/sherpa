@@ -1,4 +1,3 @@
-//
 package models
 
 import (
@@ -10,9 +9,10 @@ import (
 	"time"
 
 	"database/sql"
+
 	_ "github.com/lib/pq"
 
-	"github.com/nanopack/sherpa/config"
+	"github.com/mu-box/sherpa/config"
 )
 
 type Template struct {
@@ -22,7 +22,6 @@ type Template struct {
 	TransformScript string    `json:"transform_script"` // the transform script to run when converting this into a build
 }
 
-//
 func (t *Template) Fetch() error {
 	fmt.Println("FETCH!", t.Download)
 

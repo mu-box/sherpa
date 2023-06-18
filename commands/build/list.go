@@ -1,4 +1,3 @@
-//
 package build
 
 import (
@@ -7,10 +6,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/nanopack/sherpa/config"
+	"github.com/mu-box/sherpa/config"
 )
 
-//
 var listCmd = &cobra.Command{
 	Use:   "list",
 	Short: "",
